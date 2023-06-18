@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherToday</title>
+</head>
+<body>
+   <div class="card">
+    <div class="search" id="search">
+        <input  id="inp" type="text" placeholder="Enter The City Name">
+        <button id="btn">  <img src="images/search.png" alt=""></button>
+    </div>
+    <div class="error">
+        <p>invalid city name</p>
+    </div>
+    <div class="weather">
+       <span>Feels Like : <h5 class="fills">33°C </h5></span> 
+      <img src="images/rain.png" class="weathericon" alt="">
+      
+    
+     
+      <div 
+      class="maintemp">
+      <h1 class="temp">33°C</h1>
+      <div class="name"> <h2 class="city">Belgaum</h2> ,
+       <h3 class="country">IN</h3></div>
+     
+      <div class="mintemp">
+        <div class="maxi">
+        <h6 class="maxtemp">33°C </h6>
+        <h6 class="maxx">max temp</h6>
+    </div>
+       <div class="mini"> 
+        <h6 class="mintem">33°C </h6>
+        <h6 class="mixx">min temp</h6>
+      </div>
+    </div>
+    </div>
+      <div class="details">
+        <div class="col">
+            <img src="images/humidity.png" alt="">
+        <div class="humi">
+    
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+        </div>
+        </div>
+        <div class="col">
+            <img src="images/wind.png" alt="">
+        <div class="win">
+    
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="sun">
+        <div class="sunrise">
+            <h6>Sunrise</h6>
+            <h6 class="sunup">06:00 am</h6>
+        </div>
+        <div class="sunset">
+            <h6> Sunset</h6>
+            <h6 class="sundown">07:45 pm</h6>
+        </div>
+      </div>
+    </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>

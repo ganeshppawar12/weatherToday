@@ -155,10 +155,10 @@ box-shadow: 0 0 5px pink;
     margin-top: -6px;
     flex-wrap: wrap;
 }
-/* .weather{
+ .weather{
     display: none;
     transition: 1s all ease;
-}  */
+}  
  .error{
     text-align: left;
     margin-left: 2px;

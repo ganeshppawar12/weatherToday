@@ -198,3 +198,12 @@ span{
     flex-direction:column;
 
 }
+
+@media(width:600px){
+  .humi,.win{
+      font-size:10px;
+  }
+    .col{
+        hight:15px;
+        width:12px;
+    }
